@@ -56,3 +56,12 @@ function addTask(task) {
     let parentNode = remove.parentNode;
     parentNode.removeChild(remove);
   }
+
+  // deleteTick
+  function deleteOrTick(e) {
+    if (e.target.className == 'delete')
+      deleteTask(e);
+    else {
+      tickTask(e);
+    }
+  }
