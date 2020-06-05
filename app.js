@@ -22,3 +22,20 @@ function addTask(task) {
   ul.appendChild(li);
   document.querySelector('.tasksBoard')
     .style.display = 'block';
+
+  loadEvents();
+  // load every event in the page
+  function loadEvents() {
+    document.querySelector('form')
+      .addEventListener('submit', submit);
+    // recently added
+    document.getElementById('clear')
+      .addEventListener('click', clearList);
+
+  }
+
+  function clearList(e) {
+    // setting the ul innerHML to an empty string
+    let ul = document.querySelector('ul')
+      .innerHTML = '';
+  }
