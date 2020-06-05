@@ -28,6 +28,7 @@ function addTask(task) {
   ul.appendChild(li);
   document.querySelector('.tasksBoard')
     .style.display = 'block';
+  localStorage.setItem('li', JSON.stringify(li))
 }
 
 // clear the LIST
