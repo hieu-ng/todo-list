@@ -3,6 +3,11 @@ loadEvents();
 function loadEvents() {
   document.querySelector('form')
     .addEventListener('submit', submit);
+  document.getElementById('clear')
+    .addEventListener('click', clearList);
+  // recently added
+  document.querySelector('ul')
+    .addEventListener('click', deleteOrTick);
 }
 // subit data function
 function submit(e) {
