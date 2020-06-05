@@ -39,3 +39,14 @@ function addTask(task) {
     let ul = document.querySelector('ul')
       .innerHTML = '';
   }
+
+  function tickTask(e) {
+    const task = e.target.nextSibling;
+    if (e.target.checked) {
+      task.style.textDecoration = "line-through";
+      task.style.color = "#ff0000";
+    } else {
+      task.style.textDecoration = "none";
+      task.style.color = "#2f4f4f";
+    }
+  }
