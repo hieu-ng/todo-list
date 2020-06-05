@@ -1,6 +1,6 @@
 # Todo list app
 
-Full stack to do list app using Vanilla JavaScript
+To do list app using Vanilla JavaScript
 
 Inspired from https://blog.usejournal.com/develop-a-to-do-list-app-in-vanilla-javascript-95377ec370c5. 
 
