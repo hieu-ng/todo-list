@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
+html {
+  height: 100%;
+  background-image: linear-gradient(#3b6978, #cae8d5);
+  background-repeat: no-repeat;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  color: #0f222d;
+  background-size: auto;
+}
+
+.main {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+form {
+  background-color: #fff;
+  padding: 15px;
+}
+
+input[type="text"] {
+  width: 310px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1.5em;
+  background: #fff;
+  color: #204051;
+}
+
+button {
+  font-size: 1.5em;
+  color: #3b6978;
+  background-color: #fff;
+  outline: 0;
+  border: none;
+  width: 50px;
+}
+
+.tasksBoard {
+  background-color: #fff;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  /*display: none;*/
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  border-bottom: 1px solid #53BDFF;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 1.3em;
+  color: #204051;
+}
+
+a {
+  float: right;
+  text-align: right;
+  color: #f76a8c;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: #f76a8c;
+  padding: 0px 3px 0px 3px;
+  color: #fff;
+  cursor: pointer;
+}
