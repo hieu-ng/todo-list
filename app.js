@@ -50,3 +50,9 @@ function addTask(task) {
       task.style.color = "#2f4f4f";
     }
   }
+
+  function deleteTask(e) {
+    let remove = e.target.parentNode;
+    let parentNode = remove.parentNode;
+    parentNode.removeChild(remove);
+  }
