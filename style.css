@@ -88,3 +88,16 @@ a {
   color: #fff;
   cursor: pointer;
 }
+
+@media (max-width: 500px) {
+  .main {
+    margin: auto;
+    width: 100%;
+  }
+  input[type="text"] {
+    width: 80%;
+  }
+  button {
+    width: 10%;
+  }
+}
